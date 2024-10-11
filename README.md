@@ -1,2 +1,2 @@
 # ECBM4090repo_BrainComputerInterfaces
- Columbia Coursework
+BCI Devices for Academic & Commercial R&D
