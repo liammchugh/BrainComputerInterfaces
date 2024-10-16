@@ -1,4 +1,4 @@
-# ECBM4090repo_BrainComputerInterfaces
+# BrainComputerInterfaces
 BCI Devices for Messing around & Potentially Commercial R&D
 
 ## Current Devices
