@@ -73,7 +73,7 @@ void performICA(void * parameter) {
             }
         }
 
-        // Step 2: Simplified ICA (FastICA is a bit too complex for ESP32, this is a rough substitute)
+        // Step 2: Simplified ICA
         // We will use a linear transformation approach for simplicity
         for (int i = 0; i < num_samples; i++) {
             component_1[i] = eeg_data[i][0] - eeg_data[i][1];  // Rough approximation
