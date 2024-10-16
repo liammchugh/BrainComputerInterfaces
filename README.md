@@ -1,9 +1,7 @@
 # BrainComputerInterfaces
 BCI Devices for Messing around & Potentially Commercial R&D
 
-## Current Devices
-
-### BCI Guitar Pedal
+## BCI Guitar Pedal
 Take principle components of EEG signal and use them to control an audio effect pedal.
 #### Hardware
 EEG from Columbia BCI Lab. Eventually use custom EEG/EMG headband
