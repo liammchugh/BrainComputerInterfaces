@@ -2,9 +2,9 @@
 BCI Devices for Messing around & Potentially Commercial R&D
 
 ## BCI Guitar Pedal
-Take principle components of EEG signal and use them to control an audio effect pedal.
+Takes principle components of EEG/EMG signal and use them to control an audio effect pedal.
 #### Hardware
-EEG from Columbia BCI Lab. Eventually use custom EEG/EMG headband
+EEG from Columbia BCI Lab. Developing custom EMG headband for muscle-based control.
 C++ to run on commercial microprocessing units (Jetson, NXP i.MX RT1170)
 #### Principle Component Analysis
 Must be pseudo-realtime (sub-100us delay)... 
