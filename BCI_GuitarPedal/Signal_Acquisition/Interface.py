@@ -54,16 +54,17 @@ except KeyboardInterrupt:
     print(f"\nEnding Datarun: file saved as {filename}")
     # After breaking out, check file size and compress if over 10MB.
     try:
-        if os.path.getsize(filename) > 1 * 1024 * 1024:  # 10MB threshold
-            sz = os.path.getsize(filename) > 10 * 1024 * 1024
+        if os.path.getsize(filename) > 10 * 1024 * 1024:  # 10MB threshold
             zip_filename = filename.replace(".csv", ".zip")
-            input = input(f"File  size exceeded 10MB. Compress & replace as zip? [y / enter / n] ")
-            if input.lower() == "y" or input == "":
-                with zipfile.ZipFile(zip_filename, 'w', zipfile.ZIP_DEFLATED) as zipf:
+            user_input = input(
+                "File  size exceeded 10MB. Compress & replace as zip? [y / enter / n] "
+            )
+            if user_input.lower() == "y" or user_input == "":
+                with zipfile.ZipFile(zip_filename, "w", zipfile.ZIP_DEFLATED) as zipf:
                     zipf.write(filename, os.path.basename(filename))
                 os.remove(filename)
                 print(f"File compressed and saved as {zip_filename}")
-            elif input.lower() == "n":
+            elif user_input.lower() == "n":
                 print("File not compressed.")
     except Exception as e:
         print(f"Error during compression: {e}")
