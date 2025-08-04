@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=GND Pin=MD?-58
+Removed Pin From Net: NetName=GND Pin=MD?-59
+Removed Member From Class: ClassName=main Member=MD?
+Change Component Designator: OldDesignator=MD? NewDesignator=MD1
+Added Pin To Net: NetName=GND Pin=MD1-58
+Added Pin To Net: NetName=GND Pin=MD1-59
+Added Member To Class: ClassName=main Member=Component MD1 STM32WB5MMGH6TR

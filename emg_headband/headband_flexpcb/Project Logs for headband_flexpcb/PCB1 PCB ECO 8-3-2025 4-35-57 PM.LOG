@@ -1,0 +1,6 @@
+Added Component: Designator=MD?(FP-STM32WB5MMGH6TR-MFG)
+Added Component: Designator=MD?(FP-STM32WB5MMGH6TR-MFG)
+Added Pin To Net: NetName=GND Pin=MD?-58
+Added Pin To Net: NetName=GND Pin=MD?-59
+Added Net: Name=GND
+Added Class: Name=main

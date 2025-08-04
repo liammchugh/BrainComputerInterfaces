@@ -1,0 +1,17 @@
+Added Component: Designator=J?(FP-USB4085-GF-A-MFG)
+Add component (AddParameter): Name = "Contact Material"; Value = "Copper Alloy"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Gold"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Receptacle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "16"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Right Angle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "USB Standard"; Value = "USB 2.0"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=J?-A1
+Added Pin To Net: NetName=GND Pin=J?-A12
+Added Pin To Net: NetName=GND Pin=J?-B1
+Added Pin To Net: NetName=GND Pin=J?-B12
+Added Pin To Net: NetName=VCC Pin=J?-A4
+Added Pin To Net: NetName=VCC Pin=J?-A9
+Added Pin To Net: NetName=VCC Pin=J?-B4
+Added Pin To Net: NetName=VCC Pin=J?-B9
+Added Net: Name=VCC
+Added Member To Class: ClassName=main Member=Component J? USB4085-GF-A
