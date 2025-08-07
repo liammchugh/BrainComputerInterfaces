@@ -1,6 +1,6 @@
 # Brain-Computer Interfaces (BCI)
 
-This repository contains research and development work on BCI devices for experimentation, entertainment and potential commercial applications.
+This repository contains research and development work on BCI devices for experimentation, entertainment and commercial applications.
 
 ### BCI Guitar Pedal
 
