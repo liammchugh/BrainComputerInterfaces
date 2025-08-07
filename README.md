@@ -1,26 +1,22 @@
-# Brain-Computer Interfaces (BCI)
+# Brain-Computer Interfaces
+## BCI Guitar Pedal
 
-This repository contains research and development work on BCI devices for experimentation, entertainment and commercial applications.
-
-### BCI Guitar Pedal
-
-A novel interface that translates brain and muscle signals into guitar effect controls.
+Neural interface that translates brain & muscle signals into instrument effect modulation.
 
 #### Overview
 This project uses EEG (electroencephalography) and EMG (electromyography) signals to control audio effect parameters in real-time, creating a hands-free experience for musicians.
 
 #### Instrumentation & Communication
-- EMG sensors from commercial suppliers
-- FastICA optimized for C++ and conventional microprocessors.
-- Sub-60μs latency requirement. Implementation in C++ for optimized performance
+- EMG analogue / digital signal processing.
+- Embedded Zephyr/C++ RTOS development.
+- Bluetooth LE-enabled comms w/sub-40μs latency.
 
-#### Ground Module / Audio Effects
-- Target platforms: 
+#### Ground Module: Processing & Audio Effects
+- Target platforms:
     - Raspi 4/5, NVIDIA Jetson
-    - NXP i.MX RT1170 microcontroller
-- Initial Effects: Overdrive and distortion circuits, commercial quality, bench-tested.
-- In development: ML feature processing models w/engagement-based reinforcement learning.
-- Conventional power circuit design. Signal mapping from BCI data to effect parameters
+    - NXP i.MX RT1170 microcontroller family
+- Instrument Effects: Overdrive and distortion, commercial quality circuit design, bench-tested.
+- Statistical ML feature processing w/engagement-based reinforcement learning development capacity.
 
 ## Getting Started
 
@@ -28,8 +24,8 @@ Instructions for setting up development environment and hardware configurations 
 
 ## License
 
-[License information to be added]
+Polyform non-commercial. Available for academic use only.
 
 ## Contributors
 
-[Contributor information to be added]
+Liam McHugh
